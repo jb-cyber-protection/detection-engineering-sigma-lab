@@ -1,0 +1,20 @@
+title: "RULE TITLE"
+id: "UUID-GOES-HERE"
+status: experimental
+description: "What this detection identifies and why it matters."
+author: "YOUR_NAME"
+date: "YYYY-MM-DD"
+references:
+  - "https://attack.mitre.org/"
+tags:
+  - attack.TXXXX
+logsource:
+  product: linux
+  service: auditd
+detection:
+  selection:
+    field: value
+  condition: selection
+falsepositives:
+  - "Describe expected benign behavior"
+level: medium
