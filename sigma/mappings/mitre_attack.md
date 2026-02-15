@@ -11,3 +11,15 @@ This document summarizes coverage and rationale.
 ## Rule 2 — Linux Base64 decode piped to shell
 - Technique: T1059 (Command and Scripting Interpreter)
 - Rationale: base64 decode piped into a shell is a common obfuscation + execution chain
+
+---
+
+# Detection Coverage Summary
+
+| Rule | Technique | Description |
+|------|-----------|------------|
+| Rule 1 | T1105 | Payload staging via curl/wget |
+| Rule 2 | T1059 | Obfuscated execution via base64 decode |
+| Rule 3 | T1110 | SSH brute force authentication failures |
+
+This lab demonstrates detection coverage across initial access, execution, and staging behaviors.

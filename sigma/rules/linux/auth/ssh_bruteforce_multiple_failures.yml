@@ -1,0 +1,24 @@
+title: "Linux SSH Brute Force - Multiple Failed Logins"
+id: 265f4ca2-fc77-43ff-9705-f15592ec3fa8
+status: experimental
+description: "Detects repeated SSH authentication failures that may indicate brute force activity."
+author: "YOUR_NAME"
+date: "2026-02-15"
+references:
+  - "https://attack.mitre.org/techniques/T1110/"
+tags:
+  - attack.T1110
+logsource:
+  product: linux
+  service: auth
+detection:
+  selection:
+    message|contains:
+      - "Failed password"
+      - "Invalid user"
+  timeframe: 2m
+  condition: selection | count() > 5
+falsepositives:
+  - "User repeatedly entering wrong password"
+  - "Misconfigured automation attempting SSH login"
+level: medium

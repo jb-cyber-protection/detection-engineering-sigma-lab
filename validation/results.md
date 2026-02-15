@@ -11,3 +11,9 @@
 - Status: validated (against auditd telemetry)
 - Evidence: validation/evidence/test2_exec.txt
 - Tuning notes: validation/tuning/rule2-notes.md
+
+## Rule 3 — Linux SSH Brute Force (Multiple Failures)
+- MITRE ATT&CK: T1110 (Brute Force)
+- Status: validated (against auth.log telemetry)
+- Evidence: validation/evidence/test3_auth.txt
+- Tuning notes: validation/tuning/rule3-notes.md
