@@ -1,0 +1,26 @@
+title: "Linux Base64 decode piped to shell"
+id: f3d1c736-81e1-4df8-af78-d69c38af124b
+status: experimental
+description: "Detects base64 decoding piped into sh/bash, a common obfuscated execution one-liner."
+author: "YOUR_NAME"
+date: "2026-02-15"
+references:
+  - "https://attack.mitre.org/techniques/T1059/"
+tags:
+  - attack.T1059
+logsource:
+  product: linux
+  service: auditd
+detection:
+  selection_base64:
+    cmdline|contains:
+      - "base64"
+      - " -d"
+  selection_pipe_shell:
+    cmdline|contains:
+      - "| sh"
+      - "| bash"
+  condition: selection_base64 and selection_pipe_shell
+falsepositives:
+  - "Rare: developer/admin one-liners for troubleshooting"
+level: high
