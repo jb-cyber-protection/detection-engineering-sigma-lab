@@ -1,0 +1,56 @@
+2026-02-15T14:31:21.602963+00:00 jibraan systemd-logind[863]: New seat seat0.
+2026-02-15T14:31:21.602974+00:00 jibraan systemd-logind[863]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-02-15T14:31:21.602976+00:00 jibraan systemd-logind[863]: Watching system buttons on /dev/input/event3 (QEMU QEMU USB Keyboard)
+2026-02-15T14:31:21.603369+00:00 jibraan polkitd[816]: Loading rules from directory /etc/polkit-1/rules.d
+2026-02-15T14:31:21.603372+00:00 jibraan polkitd[816]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-02-15T14:31:21.603426+00:00 jibraan polkitd[816]: Finished loading, compiling and executing 16 rules
+2026-02-15T14:31:21.603431+00:00 jibraan polkitd[816]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-02-15T14:33:20.546765+00:00 jibraan sshd[1197]: Server listening on 0.0.0.0 port 22.
+2026-02-15T14:33:20.546839+00:00 jibraan sshd[1197]: Server listening on :: port 22.
+2026-02-15T14:33:31.098192+00:00 jibraan gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=124) by (uid=0)
+2026-02-15T14:33:31.124758+00:00 jibraan systemd-logind[863]: New session c1 of user gdm.
+2026-02-15T14:33:31.141200+00:00 jibraan (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=124) by gdm(uid=0)
+2026-02-15T14:33:32.828312+00:00 jibraan polkitd[816]: Registered Authentication Agent for unix-session:c1 (system bus name :1.40 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_GB.UTF-8)
+2026-02-15T14:35:01.502804+00:00 jibraan CRON[1720]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-02-15T14:35:01.507208+00:00 jibraan CRON[1720]: pam_unix(cron:session): session closed for user root
+2026-02-15T14:36:43.018589+00:00 jibraan gdm-password]: gkr-pam: unable to locate daemon control file
+2026-02-15T14:36:43.018737+00:00 jibraan gdm-password]: gkr-pam: stashed password to try later in open session
+2026-02-15T14:36:43.032017+00:00 jibraan gdm-password]: pam_unix(gdm-password:session): session opened for user jibraan(uid=1000) by jibraan(uid=0)
+2026-02-15T14:36:43.052898+00:00 jibraan systemd-logind[863]: New session 3 of user jibraan.
+2026-02-15T14:36:43.064483+00:00 jibraan (systemd): pam_unix(systemd-user:session): session opened for user jibraan(uid=1000) by jibraan(uid=0)
+2026-02-15T14:36:43.252956+00:00 jibraan gdm-password]: gkr-pam: unlocked login keyring
+2026-02-15T14:36:43.475213+00:00 jibraan gnome-keyring-daemon[1777]: The Secret Service was already initialized
+2026-02-15T14:36:43.475681+00:00 jibraan gnome-keyring-daemon[1933]: discover_other_daemon: 1
+2026-02-15T14:36:43.484684+00:00 jibraan gnome-keyring-daemon[1777]: The PKCS#11 component was already initialized
+2026-02-15T14:36:43.484866+00:00 jibraan gnome-keyring-daemon[1934]: discover_other_daemon: 1
+2026-02-15T14:36:43.485019+00:00 jibraan gnome-keyring-daemon[1935]: discover_other_daemon: 1
+2026-02-15T14:36:44.558165+00:00 jibraan polkitd[816]: Registered Authentication Agent for unix-session:3 (system bus name :1.82 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_GB.UTF-8)
+2026-02-15T14:36:45.035884+00:00 jibraan gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2026-02-15T14:36:45.040883+00:00 jibraan systemd-logind[863]: Session c1 logged out. Waiting for processes to exit.
+2026-02-15T14:36:45.049776+00:00 jibraan polkitd[816]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.40, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_GB.UTF-8) (disconnected from bus)
+2026-02-15T14:36:45.057544+00:00 jibraan systemd-logind[863]: Removed session c1.
+2026-02-15T14:36:55.231206+00:00 jibraan (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2026-02-15T14:37:57.061871+00:00 jibraan sudo:  jibraan : TTY=pts/0 ; PWD=/home/jibraan ; USER=root ; COMMAND=/usr/bin/apt install -y rsylog
+2026-02-15T14:37:57.062503+00:00 jibraan sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jibraan(uid=1000)
+2026-02-15T14:37:57.481966+00:00 jibraan sudo: pam_unix(sudo:session): session closed for user root
+2026-02-15T14:38:14.662729+00:00 jibraan sudo:  jibraan : TTY=pts/0 ; PWD=/home/jibraan ; USER=root ; COMMAND=/usr/bin/apt install -y rsyslog
+2026-02-15T14:38:14.663233+00:00 jibraan sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jibraan(uid=1000)
+2026-02-15T14:38:15.355615+00:00 jibraan sudo: pam_unix(sudo:session): session closed for user root
+2026-02-15T14:38:28.864393+00:00 jibraan sudo:  jibraan : TTY=pts/0 ; PWD=/home/jibraan ; USER=root ; COMMAND=/usr/bin/systemctl enable rsyslog
+2026-02-15T14:38:28.864849+00:00 jibraan sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jibraan(uid=1000)
+2026-02-15T14:38:29.112036+00:00 jibraan sudo: pam_unix(sudo:session): session closed for user root
+2026-02-15T14:38:40.580196+00:00 jibraan sudo:  jibraan : TTY=pts/0 ; PWD=/home/jibraan ; USER=root ; COMMAND=/usr/bin/systemctl start rsyslog
+2026-02-15T14:38:40.580740+00:00 jibraan sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jibraan(uid=1000)
+2026-02-15T14:38:40.589742+00:00 jibraan sudo: pam_unix(sudo:session): session closed for user root
+2026-02-15T14:39:18.368825+00:00 jibraan sudo:  jibraan : TTY=pts/0 ; PWD=/home/jibraan ; USER=root ; COMMAND=/usr/bin/systemctl enable ssh
+2026-02-15T14:39:18.370701+00:00 jibraan sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jibraan(uid=1000)
+2026-02-15T14:39:19.148932+00:00 jibraan sudo: pam_unix(sudo:session): session closed for user root
+2026-02-15T14:39:31.938756+00:00 jibraan sudo:  jibraan : TTY=pts/0 ; PWD=/home/jibraan ; USER=root ; COMMAND=/usr/bin/systemctl start ssh
+2026-02-15T14:39:31.939525+00:00 jibraan sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jibraan(uid=1000)
+2026-02-15T14:39:31.948976+00:00 jibraan sudo: pam_unix(sudo:session): session closed for user root
+2026-02-15T14:39:44.286270+00:00 jibraan dbus-daemon[804]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-02-15T14:40:33.409209+00:00 jibraan sudo:  jibraan : TTY=pts/0 ; PWD=/home/jibraan ; USER=root ; COMMAND=/usr/bin/tail -n 20 /var/log/auth.log
+2026-02-15T14:40:33.409679+00:00 jibraan sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jibraan(uid=1000)
+2026-02-15T14:40:33.413401+00:00 jibraan sudo: pam_unix(sudo:session): session closed for user root
+2026-02-15T14:41:14.541624+00:00 jibraan sudo:  jibraan : TTY=pts/0 ; PWD=/home/jibraan ; USER=root ; COMMAND=/usr/bin/tail -n 200 /var/log/auth.log
+2026-02-15T14:41:14.543389+00:00 jibraan sudo: pam_unix(sudo:session): session opened for user root(uid=0) by jibraan(uid=1000)

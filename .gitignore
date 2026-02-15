@@ -5,3 +5,4 @@
 *.json
 validation/evidence/*
 !validation/evidence/.keep
+!validation/evidence/*.txt
