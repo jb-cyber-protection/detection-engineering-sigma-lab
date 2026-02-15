@@ -1,0 +1,200 @@
+----
+time->Sun Feb 15 15:07:11 2026
+type=PROCTITLE msg=audit(1771168031.815:2129): proctitle=6175736561726368002D6B0065786563
+type=PATH msg=audit(1771168031.815:2129): item=1 name="/lib/ld-linux-aarch64.so.1" inode=414617 dev=fc:00 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1771168031.815:2129): item=0 name="/usr/sbin/ausearch" inode=431056 dev=fc:00 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1771168031.815:2129): cwd="/home/jibraan"
+type=EXECVE msg=audit(1771168031.815:2129): argc=3 a0="ausearch" a1="-k" a2="exec"
+type=SYSCALL msg=audit(1771168031.815:2129): arch=c00000b7 syscall=221 success=yes exit=0 a0=b2a1bc88ff98 a1=b2a1bc882c80 a2=b2a1bc894f00 a3=b2a1bc894f00 items=2 ppid=5643 pid=5644 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="ausearch" exe="/usr/sbin/ausearch" subj=unconfined key="exec"
+----
+time->Sun Feb 15 15:07:12 2026
+type=PROCTITLE msg=audit(1771168032.126:2132): proctitle=2F7573722F6C6962657865632F747261636B65722D657874726163742D33002D2D736F636B65742D66640033
+type=PATH msg=audit(1771168032.126:2132): item=1 name="/lib/ld-linux-aarch64.so.1" inode=414617 dev=fc:00 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1771168032.126:2132): item=0 name="/usr/libexec/tracker-extract-3" inode=455571 dev=fc:00 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1771168032.126:2132): cwd="/home/jibraan"
+type=EXECVE msg=audit(1771168032.126:2132): argc=3 a0="/usr/libexec/tracker-extract-3" a1="--socket-fd" a2="3"
+type=SYSCALL msg=audit(1771168032.126:2132): arch=c00000b7 syscall=221 success=yes exit=0 a0=b00368b162f0 a1=b00368f9afa0 a2=b00368def530 a3=b003689b2010 items=2 ppid=2397 pid=5646 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4 comm="tracker-extract" exe="/usr/libexec/tracker-extract-3" subj=unconfined key="exec"
+----
+time->Sun Feb 15 15:07:22 2026
+type=PROCTITLE msg=audit(1771168042.362:2133): proctitle=67726570002D2D636F6C6F723D6175746F00696E6574
+type=PATH msg=audit(1771168042.362:2133): item=1 name="/lib/ld-linux-aarch64.so.1" inode=414617 dev=fc:00 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1771168042.362:2133): item=0 name="/usr/bin/grep" inode=393933 dev=fc:00 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1771168042.362:2133): cwd="/home/jibraan"
+type=EXECVE msg=audit(1771168042.362:2133): argc=3 a0="grep" a1="--color=auto" a2="inet"
+type=SYSCALL msg=audit(1771168042.362:2133): arch=c00000b7 syscall=221 success=yes exit=0 a0=c8d0156463f0 a1=c8d01563fea0 a2=c8d0156a4d50 a3=eab242eacb50 items=2 ppid=2806 pid=5655 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts0 ses=4 comm="grep" exe="/usr/bin/grep" subj=unconfined key="exec"
+----
+time->Sun Feb 15 15:07:22 2026
+type=PROCTITLE msg=audit(1771168042.362:2134): proctitle=69700061
+type=PATH msg=audit(1771168042.362:2134): item=1 name="/lib/ld-linux-aarch64.so.1" inode=414617 dev=fc:00 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1771168042.362:2134): item=0 name="/usr/sbin/ip" inode=393966 dev=fc:00 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1771168042.362:2134): cwd="/home/jibraan"
+type=EXECVE msg=audit(1771168042.362:2134): argc=2 a0="ip" a1="a"
+type=SYSCALL msg=audit(1771168042.362:2134): arch=c00000b7 syscall=221 success=yes exit=0 a0=c8d01557b640 a1=c8d015571d20 a2=c8d0156a4d50 a3=eab242eacb50 items=2 ppid=2806 pid=5654 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts0 ses=4 comm="ip" exe="/usr/bin/ip" subj=unconfined key="exec"
+----
+time->Sun Feb 15 15:07:42 2026
+type=PROCTITLE msg=audit(1771168062.264:2135): proctitle=2F7573722F6C69622F736E6170642F736E61702D6465766963652D68656C706572006368616E676500736E61705F66697265666F785F66697265666F78002F646576696365732F706369303030303A30302F303030303A30303A30322E302F64726D2F6361726430003232363A30
+type=PATH msg=audit(1771168062.264:2135): item=1 name="/lib/ld-linux-aarch64.so.1" inode=414617 dev=fc:00 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1771168062.264:2135): item=0 name="/usr/lib/snapd/snap-device-helper" inode=406009 dev=fc:00 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1771168062.264:2135): cwd="/"
+type=EXECVE msg=audit(1771168062.264:2135): argc=5 a0="/usr/lib/snapd/snap-device-helper" a1="change" a2="snap_firefox_firefox" a3="/devices/pci0000:00/0000:00:02.0/drm/card0" a4="226:0"
+type=BPRM_FCAPS msg=audit(1771168062.264:2135): fver=0 fp=0 fi=0 fe=0 old_pp=000001f7fdffffff old_pi=0 old_pe=000001f7fdffffff old_pa=0 pp=000001f7fdffffff pi=0 pe=000001f7fdffffff pa=0 frootid=0
+type=SYSCALL msg=audit(1771168062.264:2135): arch=c00000b7 syscall=221 success=yes exit=0 a0=ac748054bbd0 a1=ac7480429a70 a2=ac748053e630 a3=4e items=2 ppid=5656 pid=5657 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="snap-device-hel" exe="/usr/lib/snapd/snap-device-helper" subj=unconfined key="exec"
+----
+time->Sun Feb 15 15:07:42 2026
+type=PROCTITLE msg=audit(1771168062.266:2136): proctitle=2F7573722F6C69622F736E6170642F736E61702D6465766963652D68656C706572006368616E676500736E61705F66697265666F785F6765636B6F647269766572002F646576696365732F706369303030303A30302F303030303A30303A30322E302F64726D2F6361726430003232363A30
+type=PATH msg=audit(1771168062.266:2136): item=1 name="/lib/ld-linux-aarch64.so.1" inode=414617 dev=fc:00 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1771168062.266:2136): item=0 name="/usr/lib/snapd/snap-device-helper" inode=406009 dev=fc:00 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1771168062.266:2136): cwd="/"
+type=EXECVE msg=audit(1771168062.266:2136): argc=5 a0="/usr/lib/snapd/snap-device-helper" a1="change" a2="snap_firefox_geckodriver" a3="/devices/pci0000:00/0000:00:02.0/drm/card0" a4="226:0"
+type=BPRM_FCAPS msg=audit(1771168062.266:2136): fver=0 fp=0 fi=0 fe=0 old_pp=000001f7fdffffff old_pi=0 old_pe=000001f7fdffffff old_pa=0 pp=000001f7fdffffff pi=0 pe=000001f7fdffffff pa=0 frootid=0
+type=SYSCALL msg=audit(1771168062.266:2136): arch=c00000b7 syscall=221 success=yes exit=0 a0=ac7480429a70 a1=ac74802ad3c0 a2=ac748053e630 a3=4e items=2 ppid=5656 pid=5658 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="snap-device-hel" exe="/usr/lib/snapd/snap-device-helper" subj=unconfined key="exec"
+----
+time->Sun Feb 15 15:07:42 2026
+type=PROCTITLE msg=audit(1771168062.327:2137): proctitle=2F7573722F6C69622F736E6170642F736E61702D6465766963652D68656C7065720072656D6F766500736E61705F66697265666F785F66697265666F78002F646576696365732F7669727475616C2F696E7075742F696E707574372F6A73300031333A30
+type=PATH msg=audit(1771168062.327:2137): item=1 name="/lib/ld-linux-aarch64.so.1" inode=414617 dev=fc:00 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1771168062.327:2137): item=0 name="/usr/lib/snapd/snap-device-helper" inode=406009 dev=fc:00 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1771168062.327:2137): cwd="/"
+type=EXECVE msg=audit(1771168062.327:2137): argc=5 a0="/usr/lib/snapd/snap-device-helper" a1="remove" a2="snap_firefox_firefox" a3="/devices/virtual/input/input7/js0" a4="13:0"
+type=BPRM_FCAPS msg=audit(1771168062.327:2137): fver=0 fp=0 fi=0 fe=0 old_pp=000001f7fdffffff old_pi=0 old_pe=000001f7fdffffff old_pa=0 pp=000001f7fdffffff pi=0 pe=000001f7fdffffff pa=0 frootid=0
+type=SYSCALL msg=audit(1771168062.327:2137): arch=c00000b7 syscall=221 success=yes exit=0 a0=ac748042d220 a1=ac74802ad3c0 a2=ac748054ba40 a3=4e items=2 ppid=5656 pid=5662 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="snap-device-hel" exe="/usr/lib/snapd/snap-device-helper" subj=unconfined key="exec"
+----
+time->Sun Feb 15 15:07:42 2026
+type=PROCTITLE msg=audit(1771168062.328:2138): proctitle=2F7573722F6C69622F736E6170642F736E61702D6465766963652D68656C7065720072656D6F766500736E61705F66697265666F785F6765636B6F647269766572002F646576696365732F7669727475616C2F696E7075742F696E707574372F6A73300031333A30
+type=PATH msg=audit(1771168062.328:2138): item=1 name="/lib/ld-linux-aarch64.so.1" inode=414617 dev=fc:00 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1771168062.328:2138): item=0 name="/usr/lib/snapd/snap-device-helper" inode=406009 dev=fc:00 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1771168062.328:2138): cwd="/"
+type=EXECVE msg=audit(1771168062.328:2138): argc=5 a0="/usr/lib/snapd/snap-device-helper" a1="remove" a2="snap_firefox_geckodriver" a3="/devices/virtual/input/input7/js0" a4="13:0"
+type=BPRM_FCAPS msg=audit(1771168062.328:2138): fver=0 fp=0 fi=0 fe=0 old_pp=000001f7fdffffff old_pi=0 old_pe=000001f7fdffffff old_pa=0 pp=000001f7fdffffff pi=0 pe=000001f7fdffffff pa=0 frootid=0
+type=SYSCALL msg=audit(1771168062.328:2138): arch=c00000b7 syscall=221 success=yes exit=0 a0=ac74802ad3c0 a1=ac7480429a70 a2=ac748054ba40 a3=4e items=2 ppid=5656 pid=5663 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="snap-device-hel" exe="/usr/lib/snapd/snap-device-helper" subj=unconfined key="exec"
+----
+time->Sun Feb 15 15:07:42 2026
+type=PROCTITLE msg=audit(1771168062.336:2139): proctitle=2F7573722F6C69622F736E6170642F736E61702D6465766963652D68656C7065720061646400736E61705F66697265666F785F66697265666F78002F646576696365732F7669727475616C2F696E7075742F696E707574382F6A73300031333A30
+type=PATH msg=audit(1771168062.336:2139): item=1 name="/lib/ld-linux-aarch64.so.1" inode=414617 dev=fc:00 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1771168062.336:2139): item=0 name="/usr/lib/snapd/snap-device-helper" inode=406009 dev=fc:00 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1771168062.336:2139): cwd="/"
+type=EXECVE msg=audit(1771168062.336:2139): argc=5 a0="/usr/lib/snapd/snap-device-helper" a1="add" a2="snap_firefox_firefox" a3="/devices/virtual/input/input8/js0" a4="13:0"
+type=BPRM_FCAPS msg=audit(1771168062.336:2139): fver=0 fp=0 fi=0 fe=0 old_pp=000001f7fdffffff old_pi=0 old_pe=000001f7fdffffff old_pa=0 pp=000001f7fdffffff pi=0 pe=000001f7fdffffff pa=0 frootid=0
+type=SYSCALL msg=audit(1771168062.336:2139): arch=c00000b7 syscall=221 success=yes exit=0 a0=ac748042a720 a1=ac74802a5520 a2=ac7480425e50 a3=4e items=2 ppid=5656 pid=5665 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="snap-device-hel" exe="/usr/lib/snapd/snap-device-helper" subj=unconfined key="exec"
+----
+time->Sun Feb 15 15:07:42 2026
+type=PROCTITLE msg=audit(1771168062.337:2140): proctitle=2F7573722F6C69622F736E6170642F736E61702D6465766963652D68656C7065720061646400736E61705F66697265666F785F6765636B6F647269766572002F646576696365732F7669727475616C2F696E7075742F696E707574382F6A73300031333A30
+type=PATH msg=audit(1771168062.337:2140): item=1 name="/lib/ld-linux-aarch64.so.1" inode=414617 dev=fc:00 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1771168062.337:2140): item=0 name="/usr/lib/snapd/snap-device-helper" inode=406009 dev=fc:00 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1771168062.337:2140): cwd="/"
+type=EXECVE msg=audit(1771168062.337:2140): argc=5 a0="/usr/lib/snapd/snap-device-helper" a1="add" a2="snap_firefox_geckodriver" a3="/devices/virtual/input/input8/js0" a4="13:0"
+type=BPRM_FCAPS msg=audit(1771168062.337:2140): fver=0 fp=0 fi=0 fe=0 old_pp=000001f7fdffffff old_pi=0 old_pe=000001f7fdffffff old_pa=0 pp=000001f7fdffffff pi=0 pe=000001f7fdffffff pa=0 frootid=0
+type=SYSCALL msg=audit(1771168062.337:2140): arch=c00000b7 syscall=221 success=yes exit=0 a0=ac74802a5520 a1=ac74802ad3c0 a2=ac7480425e50 a3=4e items=2 ppid=5656 pid=5666 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="snap-device-hel" exe="/usr/lib/snapd/snap-device-helper" subj=unconfined key="exec"
+----
+time->Sun Feb 15 15:10:00 2026
+type=PROCTITLE msg=audit(1771168200.439:2141): proctitle=2F7573722F6C69622F73797374656D642F73797374656D642D6578656375746F72002D2D646573657269616C697A6500313030002D2D6C6F672D6C6576656C00696E666F002D2D6C6F672D746172676574006A6F75726E616C2D6F722D6B6D7367
+type=PATH msg=audit(1771168200.439:2141): item=1 name="/lib/ld-linux-aarch64.so.1" inode=414617 dev=fc:00 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1771168200.439:2141): item=0 name="/proc/self/fd/9" inode=429784 dev=fc:00 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1771168200.439:2141): cwd="/"
+type=EXECVE msg=audit(1771168200.439:2141): argc=7 a0="/usr/lib/systemd/systemd-executor" a1="--deserialize" a2="100" a3="--log-level" a4="info" a5="--log-target" a6="journal-or-kmsg"
+type=SYSCALL msg=audit(1771168200.439:2141): arch=c00000b7 syscall=221 success=yes exit=0 a0=ffffef55bcf8 a1=ffffef55bd18 a2=ffffef55c988 a3=ede4bbe4de00 items=2 ppid=1 pid=5751 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="9" exe="/usr/lib/systemd/systemd-executor" subj=unconfined key="exec"
+----
+time->Sun Feb 15 15:10:00 2026
+type=PROCTITLE msg=audit(1771168200.452:2142): proctitle=2F7573722F6C69622F73797374656D642F73797374656D642D6578656375746F72002D2D646573657269616C697A6500313030002D2D6C6F672D6C6576656C00696E666F002D2D6C6F672D746172676574006A6F75726E616C2D6F722D6B6D7367
+type=PATH msg=audit(1771168200.452:2142): item=2 name="/lib/ld-linux-aarch64.so.1" inode=414617 dev=fc:00 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1771168200.452:2142): item=1 name="/bin/sh" inode=393829 dev=fc:00 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1771168200.452:2142): item=0 name="/usr/lib/sysstat/sa1" inode=410014 dev=fc:00 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1771168200.452:2142): cwd="/"
+type=EXECVE msg=audit(1771168200.452:2142): argc=4 a0="/bin/sh" a1="/usr/lib/sysstat/sa1" a2="1" a3="1"
+type=SYSCALL msg=audit(1771168200.452:2142): arch=c00000b7 syscall=221 success=yes exit=0 a0=b9419d5400c0 a1=b9419d5401c0 a2=b9419d53f4b0 a3=b9419d53f4b0 items=3 ppid=1 pid=5751 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="sa1" exe="/usr/bin/dash" subj=unconfined key="exec"
+----
+time->Sun Feb 15 15:10:00 2026
+type=PROCTITLE msg=audit(1771168200.453:2143): proctitle=2F7573722F6C69622F73797374656D642F73797374656D642D6578656375746F72002D2D646573657269616C697A6500313030002D2D6C6F672D6C6576656C00696E666F002D2D6C6F672D746172676574006A6F75726E616C2D6F722D6B6D7367
+type=PATH msg=audit(1771168200.453:2143): item=1 name="/lib/ld-linux-aarch64.so.1" inode=414617 dev=fc:00 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1771168200.453:2143): item=0 name="/usr/lib/sysstat/sadc" inode=410016 dev=fc:00 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1771168200.453:2143): cwd="/usr/lib/sysstat"
+type=EXECVE msg=audit(1771168200.453:2143): argc=8 a0="/usr/lib/sysstat/sadc" a1="-F" a2="-L" a3="-S" a4="DISK" a5="1" a6="1" a7="/var/log/sysstat"
+type=SYSCALL msg=audit(1771168200.453:2143): arch=c00000b7 syscall=221 success=yes exit=0 a0=c8cbb7ddb148 a1=c8cbb7ddb228 a2=c8cbb7ddb270 a3=e676166aab50 items=2 ppid=1 pid=5751 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="sadc" exe="/usr/lib/sysstat/sadc" subj=unconfined key="exec"
+----
+time->Sun Feb 15 15:11:11 2026
+type=PROCTITLE msg=audit(1771168271.106:2146): proctitle=2F7573722F7362696E2F73736864002D44002D52
+type=PATH msg=audit(1771168271.106:2146): item=1 name="/lib/ld-linux-aarch64.so.1" inode=414617 dev=fc:00 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1771168271.106:2146): item=0 name="/usr/sbin/sshd" inode=410712 dev=fc:00 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1771168271.106:2146): cwd="/"
+type=EXECVE msg=audit(1771168271.106:2146): argc=3 a0="/usr/sbin/sshd" a1="-D" a2="-R"
+type=SYSCALL msg=audit(1771168271.106:2146): arch=c00000b7 syscall=221 success=yes exit=0 a0=ab86daed7950 a1=ab86daf2b800 a2=ab86daed7990 a3=0 items=2 ppid=1197 pid=5791 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="sshd" exe="/usr/sbin/sshd" subj=unconfined key="exec"
+----
+time->Sun Feb 15 15:12:01 2026
+type=PROCTITLE msg=audit(1771168321.007:2155): proctitle=2F7573722F7362696E2F73736864002D44002D52
+type=PATH msg=audit(1771168321.007:2155): item=1 name="/lib/ld-linux-aarch64.so.1" inode=414617 dev=fc:00 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1771168321.007:2155): item=0 name="/usr/sbin/sshd" inode=410712 dev=fc:00 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1771168321.007:2155): cwd="/"
+type=EXECVE msg=audit(1771168321.007:2155): argc=3 a0="/usr/sbin/sshd" a1="-D" a2="-R"
+type=SYSCALL msg=audit(1771168321.007:2155): arch=c00000b7 syscall=221 success=yes exit=0 a0=ab86daed7950 a1=ab86daf2b800 a2=ab86daed7990 a3=0 items=2 ppid=1197 pid=5830 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="sshd" exe="/usr/sbin/sshd" subj=unconfined key="exec"
+----
+time->Sun Feb 15 15:12:28 2026
+type=PROCTITLE msg=audit(1771168348.373:2164): proctitle=2F7573722F7362696E2F73736864002D44002D52
+type=PATH msg=audit(1771168348.373:2164): item=1 name="/lib/ld-linux-aarch64.so.1" inode=414617 dev=fc:00 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1771168348.373:2164): item=0 name="/usr/sbin/sshd" inode=410712 dev=fc:00 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1771168348.373:2164): cwd="/"
+type=EXECVE msg=audit(1771168348.373:2164): argc=3 a0="/usr/sbin/sshd" a1="-D" a2="-R"
+type=SYSCALL msg=audit(1771168348.373:2164): arch=c00000b7 syscall=221 success=yes exit=0 a0=ab86daed7950 a1=ab86daf2b800 a2=ab86daed7990 a3=0 items=2 ppid=1197 pid=5835 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="sshd" exe="/usr/sbin/sshd" subj=unconfined key="exec"
+----
+time->Sun Feb 15 15:15:01 2026
+type=PROCTITLE msg=audit(1771168501.651:2172): proctitle=2F62696E2F7368002D6300636F6D6D616E64202D762064656269616E2D736131203E202F6465762F6E756C6C2026262064656269616E2D73613120312031
+type=PATH msg=audit(1771168501.651:2172): item=1 name="/lib/ld-linux-aarch64.so.1" inode=414617 dev=fc:00 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1771168501.651:2172): item=0 name="/bin/sh" inode=393829 dev=fc:00 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1771168501.651:2172): cwd="/root"
+type=EXECVE msg=audit(1771168501.651:2172): argc=3 a0="/bin/sh" a1="-c" a2=636F6D6D616E64202D762064656269616E2D736131203E202F6465762F6E756C6C2026262064656269616E2D73613120312031
+type=SYSCALL msg=audit(1771168501.651:2172): arch=c00000b7 syscall=221 success=yes exit=0 a0=acc36986a2c6 a1=ffffe48b0e10 a2=acc36986a300 a3=ffffe48b0e28 items=2 ppid=5914 pid=5915 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=8 comm="sh" exe="/usr/bin/dash" subj=unconfined key="exec"
+----
+time->Sun Feb 15 15:15:01 2026
+type=PROCTITLE msg=audit(1771168501.652:2173): proctitle=2F62696E2F7368002F7573722F6C69622F737973737461742F64656269616E2D73613100310031
+type=PATH msg=audit(1771168501.652:2173): item=2 name="/lib/ld-linux-aarch64.so.1" inode=414617 dev=fc:00 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1771168501.652:2173): item=1 name="/bin/sh" inode=393829 dev=fc:00 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1771168501.652:2173): item=0 name="/usr/lib/sysstat/debian-sa1" inode=410013 dev=fc:00 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1771168501.652:2173): cwd="/root"
+type=EXECVE msg=audit(1771168501.652:2173): argc=4 a0="/bin/sh" a1="/usr/lib/sysstat/debian-sa1" a2="1" a3="1"
+type=SYSCALL msg=audit(1771168501.652:2173): arch=c00000b7 syscall=221 success=yes exit=0 a0=c933721d2538 a1=c933721d24e0 a2=c933721d2500 a3=e07112a6ab50 items=3 ppid=5915 pid=5916 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=8 comm="debian-sa1" exe="/usr/bin/dash" subj=unconfined key="exec"
+----
+time->Sun Feb 15 15:15:03 2026
+type=PROCTITLE msg=audit(1771168503.852:2176): proctitle=7375646F007461696C002D6E00323030002F7661722F6C6F672F617574682E6C6F67
+type=PATH msg=audit(1771168503.852:2176): item=1 name="/lib/ld-linux-aarch64.so.1" inode=414617 dev=fc:00 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1771168503.852:2176): item=0 name="/usr/bin/sudo" inode=394351 dev=fc:00 mode=0104755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1771168503.852:2176): cwd="/home/jibraan"
+type=EXECVE msg=audit(1771168503.852:2176): argc=5 a0="sudo" a1="tail" a2="-n" a3="200" a4="/var/log/auth.log"
+type=SYSCALL msg=audit(1771168503.852:2176): arch=c00000b7 syscall=221 success=yes exit=0 a0=c8d015646660 a1=c8d01564d3a0 a2=c8d0156a4d50 a3=eab242eacb50 items=2 ppid=2806 pid=5917 auid=1000 uid=1000 gid=1000 euid=0 suid=0 fsuid=0 egid=1000 sgid=1000 fsgid=1000 tty=pts0 ses=4 comm="sudo" exe="/usr/bin/sudo" subj=unconfined key="exec"
+----
+time->Sun Feb 15 15:15:03 2026
+type=PROCTITLE msg=audit(1771168503.863:2181): proctitle=7461696C002D6E00323030002F7661722F6C6F672F617574682E6C6F67
+type=PATH msg=audit(1771168503.863:2181): item=1 name="/lib/ld-linux-aarch64.so.1" inode=414617 dev=fc:00 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1771168503.863:2181): item=0 name="/usr/bin/tail" inode=417334 dev=fc:00 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1771168503.863:2181): cwd="/home/jibraan"
+type=EXECVE msg=audit(1771168503.863:2181): argc=4 a0="tail" a1="-n" a2="200" a3="/var/log/auth.log"
+type=SYSCALL msg=audit(1771168503.863:2181): arch=c00000b7 syscall=221 success=yes exit=0 a0=ac012f1d2ae8 a1=ac012f1e1c80 a2=ac012f1f3f60 a3=ac012f1f3f60 items=2 ppid=5921 pid=5922 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="tail" exe="/usr/bin/tail" subj=unconfined key="exec"
+----
+time->Sun Feb 15 15:15:03 2026
+type=PROCTITLE msg=audit(1771168503.894:2184): proctitle=2F7573722F6C6962657865632F747261636B65722D657874726163742D33002D2D736F636B65742D66640033
+type=PATH msg=audit(1771168503.894:2184): item=1 name="/lib/ld-linux-aarch64.so.1" inode=414617 dev=fc:00 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1771168503.894:2184): item=0 name="/usr/libexec/tracker-extract-3" inode=455571 dev=fc:00 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1771168503.894:2184): cwd="/home/jibraan"
+type=EXECVE msg=audit(1771168503.894:2184): argc=3 a0="/usr/libexec/tracker-extract-3" a1="--socket-fd" a2="3"
+type=SYSCALL msg=audit(1771168503.894:2184): arch=c00000b7 syscall=221 success=yes exit=0 a0=b00368f50370 a1=b00368b90740 a2=b00368f95c70 a3=b003689b2010 items=2 ppid=2397 pid=5924 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4 comm="tracker-extract" exe="/usr/libexec/tracker-extract-3" subj=unconfined key="exec"
+----
+time->Sun Feb 15 15:16:58 2026
+type=PROCTITLE msg=audit(1771168618.062:2185): proctitle=7375646F006175736561726368002D6B0065786563
+type=PATH msg=audit(1771168618.062:2185): item=1 name="/lib/ld-linux-aarch64.so.1" inode=414617 dev=fc:00 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1771168618.062:2185): item=0 name="/usr/bin/sudo" inode=394351 dev=fc:00 mode=0104755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1771168618.062:2185): cwd="/home/jibraan"
+type=EXECVE msg=audit(1771168618.062:2185): argc=4 a0="sudo" a1="ausearch" a2="-k" a3="exec"
+type=SYSCALL msg=audit(1771168618.062:2185): arch=c00000b7 syscall=221 success=yes exit=0 a0=c8d015570cb0 a1=c8d015591cc0 a2=c8d0156a4d50 a3=eab242eacb50 items=2 ppid=2806 pid=5972 auid=1000 uid=1000 gid=1000 euid=0 suid=0 fsuid=0 egid=1000 sgid=1000 fsgid=1000 tty=pts0 ses=4 comm="sudo" exe="/usr/bin/sudo" subj=unconfined key="exec"
+----
+time->Sun Feb 15 15:16:58 2026
+type=PROCTITLE msg=audit(1771168618.062:2186): proctitle=7461696C002D6E00323030
+type=PATH msg=audit(1771168618.062:2186): item=1 name="/lib/ld-linux-aarch64.so.1" inode=414617 dev=fc:00 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1771168618.062:2186): item=0 name="/usr/bin/tail" inode=417334 dev=fc:00 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1771168618.062:2186): cwd="/home/jibraan"
+type=EXECVE msg=audit(1771168618.062:2186): argc=3 a0="tail" a1="-n" a2="200"
+type=SYSCALL msg=audit(1771168618.062:2186): arch=c00000b7 syscall=221 success=yes exit=0 a0=c8d015571d20 a1=c8d015591d60 a2=c8d0156a4d50 a3=eab242eacb50 items=2 ppid=2806 pid=5973 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts0 ses=4 comm="tail" exe="/usr/bin/tail" subj=unconfined key="exec"
+----
+time->Sun Feb 15 15:16:58 2026
+type=PROCTITLE msg=audit(1771168618.072:2191): proctitle=6175736561726368002D6B0065786563
+type=PATH msg=audit(1771168618.072:2191): item=1 name="/lib/ld-linux-aarch64.so.1" inode=414617 dev=fc:00 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1771168618.072:2191): item=0 name="/usr/sbin/ausearch" inode=431056 dev=fc:00 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1771168618.072:2191): cwd="/home/jibraan"
+type=EXECVE msg=audit(1771168618.072:2191): argc=3 a0="ausearch" a1="-k" a2="exec"
+type=SYSCALL msg=audit(1771168618.072:2191): arch=c00000b7 syscall=221 success=yes exit=0 a0=b8a2161caf98 a1=b8a2161bdc80 a2=b8a2161cff00 a3=b8a2161cff00 items=2 ppid=5976 pid=5977 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="ausearch" exe="/usr/sbin/ausearch" subj=unconfined key="exec"
