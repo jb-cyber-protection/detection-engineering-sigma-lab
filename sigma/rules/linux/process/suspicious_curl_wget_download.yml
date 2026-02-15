@@ -1,0 +1,27 @@
+title: "Linux Suspicious curl/wget download to /tmp"
+id: 4487703e-e9f1-47a0-8bea-7cf242b79dc5
+status: experimental
+description: "Detects curl/wget downloading a file into /tmp, a common payload staging pattern."
+author: "YOUR_NAME"
+date: "2026-02-15"
+references:
+  - "https://attack.mitre.org/techniques/T1105/"
+tags:
+  - attack.T1105
+logsource:
+  product: linux
+  service: auditd
+detection:
+  selection_tool:
+    exe|endswith:
+      - "/curl"
+      - "/wget"
+  selection_tmp:
+    cmdline|contains:
+      - " /tmp/"
+      - " -o /tmp/"
+      - " -O /tmp/"
+  condition: selection_tool and selection_tmp
+falsepositives:
+  - "Legitimate admin or automation downloads into /tmp"
+level: medium
